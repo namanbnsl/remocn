@@ -84,25 +84,15 @@ Tier `remocn`. WebGL shader backdrops from `@paper-design/shaders`, wrapped for 
 | [`shader-metaballs`](shader-metaballs.md) | A playful/organic scene wants lava-lamp blobs merging and splitting | The brand is strictly serious/corporate — metaballs read playful | 150f | playful | `@paper-design/shaders-react` |
 | [`shader-pulsing-border`](shader-pulsing-border.md) | A pulsing lit frame around the scene edges that leaves the center clear for text | You want a full-field texture — the interior stays mostly `colorBack` | 150f | premium | `@paper-design/shaders-react` |
 
-## Transitions & Wipes
+## Transitions
 
-Tier `remocn`. Swap between two scenes — wrap `from` / `to` as ReactNode plus `transitionDuration`.
-
-| Component | Use for | Avoid for | Length | Vibe | Deps |
-|---|---|---|---|---|---|
-| [`chromatic-aberration-wipe`](chromatic-aberration-wipe.md) | Cuts between scenes need to feel fast, kinetic, and slightly chaotic — tech product… | The video tone is calm, professional, or corporate — the RGB glitch reads as… | 90f | premium | — |
-| [`directional-wipe`](directional-wipe.md) | Scenes are spatially related and should feel like pages sliding — feature steps,… | You want a dramatic, high-energy cut — the slide is clean but understated; use… | 90f | premium | — |
-| [`frosted-glass-wipe`](frosted-glass-wipe.md) | The video tone is refined and editorial — the frosted pane reads as premium Apple-style… | The transition needs to be fast or punchy — `transitionDuration` of 30 frames is a… | 90f | premium | — |
-| [`grid-pixelate-wipe`](grid-pixelate-wipe.md) | The transition should feel designed and deliberate — the grid dissolve reads as an… | The scenes are spatially related and the transition should feel like physical movement… | 90f | premium | — |
-| [`spatial-push`](spatial-push.md) | The narrative moves deeper into a topic — "zooming in" on a feature, entering a… | You need a fast, energy-forward cut — the scale-based push reads as deliberate and… | 90f | premium | — |
-| [`zoom-through-transition`](zoom-through-transition.md) | The outgoing scene needs a dramatic, high-velocity exit that commands attention before… | You need a two-sided transition (swap `from` and `to` scenes in one component) —… | 60f | premium | — |
-
-## Shader Transitions
-
-Tier `remocn`. Presentations for `@remotion/transitions` — pass to `TransitionSeries.Transition` between two sequences instead of wrapping scenes as props.
+Tier `remocn`. Presentations for `@remotion/transitions` — pass to `TransitionSeries.Transition` between two sequences, pace with `linearTiming` or `springTiming`.
 
 | Component | Use for | Avoid for | Length | Vibe | Deps |
 |---|---|---|---|---|---|
+| [`whip-pan`](whip-pan.md) | Fast, energetic directional cuts — feature-to-feature jumps, montage rhythm; the default… | Calm or contemplative moments — the whip reads as urgency; use `focus-pull` | 26f | kinetic | — |
+| [`push-through`](push-through.md) | The narrative moves deeper — zooming in on a feature, entering a product, climactic CTA… | Peer scenes moving sideways — the push implies hierarchy; use `whip-pan` | 40f | premium | — |
+| [`focus-pull`](focus-pull.md) | Refined, editorial attention shifts — a cinematic alternative to `fade-through` for… | Cuts that need energy or direction — use `whip-pan` or `push-through` | 46f | premium | — |
 | [`grain-dissolve`](grain-dissolve.md) | Editorial, textured chapter changes — the scene decomposes into grainy shapes and the next… | Fast cuts under ~50 frames — the intensity/softness sweep needs room; crisp minimal tone… | 76f | premium | `@paper-design/shaders-react` |
 | [`wave-wipe`](wave-wipe.md) | The cut should feel like physical motion — a grainy swell washes up over the scene and the… | Horizontally-related scenes (steps in a flow) — the vertical sweep fights the reading… | 60f | premium | `@paper-design/shaders-react` |
 | [`ripple-zoom`](ripple-zoom.md) | The narrative zooms in on a hero statement — the camera dives through grainy ripple rings… | Incoming scenes with opaque full-frame backgrounds — they hide the field and kill the… | 68f | premium | `@paper-design/shaders-react` |
