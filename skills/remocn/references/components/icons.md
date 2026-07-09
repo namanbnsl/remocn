@@ -83,3 +83,4 @@ export const Scene = () => (
 | `icon-heart` | Likes, favorites, testimonials, or "built with love" moments | Ratings — use `icon-star` | no | 75f |
 | `icon-star` | Ratings, favorites, GitHub-star callouts | Sparkle/magic semantics — use `icon-sparkles` | no | 70f |
 | `icon-sparkles` | AI features, magic moments, premium highlights | A single award or rating — use `icon-star` | yes | 90f |
+| `icon-zap` | Speed, performance, or instant-result claims | Gradual improvement narratives — pair metrics with `number-wheel` instead | no | 60f |
