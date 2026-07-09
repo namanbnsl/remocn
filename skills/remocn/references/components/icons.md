@@ -73,3 +73,4 @@ export const Scene = () => (
 | `icon-refresh-cw` | Sync, retry, or "always up to date" messaging | An indeterminate wait — use `icon-loader` | yes | 90f |
 | `icon-search` | A search or discovery beat in a product walkthrough | Zoom semantics — pair with `zoom-blur` transitions instead | no | 75f |
 | `icon-bell` | A notification or alert arriving in a demo | Warnings about problems — use `icon-alert-triangle` | no | 75f |
+| `icon-download` | A download, export, or "get it now" beat | Sending data away — use `icon-upload` or `icon-send` | no | 70f |
