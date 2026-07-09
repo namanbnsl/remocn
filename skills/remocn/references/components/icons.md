@@ -96,3 +96,4 @@ export const Scene = () => (
 | `icon-pause` | Pausing a flow or freezing a moment mid-demo | Permanent stops or errors — use `icon-x-circle` | no | 60f |
 | `icon-skip-forward` | Jumping ahead, skipping onboarding steps | Simple next-step pointers — use `icon-arrow-right` | no | 60f |
 | `icon-volume-2` | Sound-on moments, audio feature callouts | Muted states — use `icon-volume-x` | no | 70f |
+| `icon-volume-x` | Muted or do-not-disturb beats | General errors — use `icon-x-circle` | no | 70f |
