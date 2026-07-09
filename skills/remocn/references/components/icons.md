@@ -87,3 +87,4 @@ export const Scene = () => (
 | `icon-flame` | Hot features, trending items, streaks | Literal fire/danger warnings — use `icon-alert-triangle` | yes | 90f |
 | `icon-thumbs-up` | Approval, positive review, social-proof beats | Love/favorite semantics — use `icon-heart` | no | 70f |
 | `icon-party-popper` | Launch, milestone, or celebration finales | Subtle success — use `icon-check-circle` | no | 75f |
+| `icon-arrow-right` | CTAs, next-step pointers, flow direction | Leaving the product — use `icon-external-link` | no | 60f |
