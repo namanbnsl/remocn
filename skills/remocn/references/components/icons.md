@@ -93,6 +93,7 @@ export const Scene = () => (
 | `icon-link` | Linking, permalinks, connected-account beats | Opening external pages — use `icon-external-link` | no | 70f |
 | `icon-bookmark` | Save-for-later, favorites lists | Ratings — use `icon-star` | no | 70f |
 | `icon-lock` | Security, encrypted or gated content | Broad protection claims — use `icon-shield` | no | 70f |
+| `icon-key` | API keys, access grants, unlock moments | The locked state itself — use `icon-lock` | no | 75f |
 | `icon-heart` | Likes, favorites, testimonials, or "built with love" moments | Ratings — use `icon-star` | no | 75f |
 | `icon-star` | Ratings, favorites, GitHub-star callouts | Sparkle/magic semantics — use `icon-sparkles` | no | 70f |
 | `icon-sparkles` | AI features, magic moments, premium highlights | A single award or rating — use `icon-star` | yes | 90f |
