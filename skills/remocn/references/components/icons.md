@@ -91,3 +91,4 @@ export const Scene = () => (
 | `icon-arrow-left` | Back navigation, "previously" callbacks | Undo semantics — use `icon-refresh-cw` spun counter-clockwise via `speed` | no | 60f |
 | `icon-arrow-up` | Growth, improvement, upward-trend beats | File upload — use `icon-upload` | no | 60f |
 | `icon-arrow-down` | Cost/latency reduction beats, scroll cues | File download — use `icon-download` | no | 60f |
+| `icon-external-link` | "View on GitHub", external docs, open-in-new-tab beats | In-product navigation — use `icon-arrow-right` | no | 70f |
