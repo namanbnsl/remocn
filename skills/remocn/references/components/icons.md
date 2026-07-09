@@ -68,3 +68,4 @@ export const Scene = () => (
 | `icon-check-circle` | A completed checklist row or success confirmation moment | A bare inline tick next to text — use `icon-check` | no | 75f |
 | `icon-x` | An error, removal, or dismissal beat | A warning that is not a hard failure — use `icon-alert-triangle` | no | 60f |
 | `icon-alert-triangle` | Highlighting a risk, warning, or "before" pain point | A fatal error or rejection — use `icon-x` | no | 75f |
+| `icon-info` | Introducing a tip, note, or neutral callout in a scene | Anything alarming — use `icon-alert-triangle` | no | 75f |
