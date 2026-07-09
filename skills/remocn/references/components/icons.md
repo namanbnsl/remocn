@@ -75,3 +75,4 @@ export const Scene = () => (
 | `icon-bell` | A notification or alert arriving in a demo | Warnings about problems — use `icon-alert-triangle` | no | 75f |
 | `icon-download` | A download, export, or "get it now" beat | Sending data away — use `icon-upload` or `icon-send` | no | 70f |
 | `icon-upload` | An upload, publish, or submission beat | Receiving data — use `icon-download` | no | 70f |
+| `icon-copy` | Copy-to-clipboard or duplication moments (install commands, snippets) | Sharing to another surface — use `icon-external-link` | no | 70f |
