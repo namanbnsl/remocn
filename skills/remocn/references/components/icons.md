@@ -74,3 +74,4 @@ export const Scene = () => (
 | `icon-search` | A search or discovery beat in a product walkthrough | Zoom semantics — pair with `zoom-blur` transitions instead | no | 75f |
 | `icon-bell` | A notification or alert arriving in a demo | Warnings about problems — use `icon-alert-triangle` | no | 75f |
 | `icon-download` | A download, export, or "get it now" beat | Sending data away — use `icon-upload` or `icon-send` | no | 70f |
+| `icon-upload` | An upload, publish, or submission beat | Receiving data — use `icon-download` | no | 70f |
