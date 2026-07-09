@@ -81,6 +81,7 @@ export const Scene = () => (
 | `icon-plus` | Adding an item, feature, or integration in a build-up scene | Medical or positivity semantics — it is strictly an "add" affordance here | no | 60f |
 | `icon-send` | Sending a message, form, or request in a flow | File transfer semantics — use `icon-upload` | no | 75f |
 | `icon-menu` | Opening navigation, hamburger-menu beats | 'More options' affordances — use `icon-more-horizontal` | no | 70f |
+| `icon-more-horizontal` | Overflow menus, 'more options', typing or thinking beats | Loading states — use `icon-loader` | no | 70f |
 | `icon-heart` | Likes, favorites, testimonials, or "built with love" moments | Ratings — use `icon-star` | no | 75f |
 | `icon-star` | Ratings, favorites, GitHub-star callouts | Sparkle/magic semantics — use `icon-sparkles` | no | 70f |
 | `icon-sparkles` | AI features, magic moments, premium highlights | A single award or rating — use `icon-star` | yes | 90f |
