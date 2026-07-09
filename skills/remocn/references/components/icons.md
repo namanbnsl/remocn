@@ -95,3 +95,4 @@ export const Scene = () => (
 | `icon-play` | Starting a demo, video, or 'see it in action' beat | Continuous processing — use `icon-loader` | no | 60f |
 | `icon-pause` | Pausing a flow or freezing a moment mid-demo | Permanent stops or errors — use `icon-x-circle` | no | 60f |
 | `icon-skip-forward` | Jumping ahead, skipping onboarding steps | Simple next-step pointers — use `icon-arrow-right` | no | 60f |
+| `icon-volume-2` | Sound-on moments, audio feature callouts | Muted states — use `icon-volume-x` | no | 70f |
