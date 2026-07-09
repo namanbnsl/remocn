@@ -89,3 +89,4 @@ export const Scene = () => (
 | `icon-party-popper` | Launch, milestone, or celebration finales | Subtle success — use `icon-check-circle` | no | 75f |
 | `icon-arrow-right` | CTAs, next-step pointers, flow direction | Leaving the product — use `icon-external-link` | no | 60f |
 | `icon-arrow-left` | Back navigation, "previously" callbacks | Undo semantics — use `icon-refresh-cw` spun counter-clockwise via `speed` | no | 60f |
+| `icon-arrow-up` | Growth, improvement, upward-trend beats | File upload — use `icon-upload` | no | 60f |
