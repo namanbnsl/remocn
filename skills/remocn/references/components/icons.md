@@ -92,3 +92,4 @@ export const Scene = () => (
 | `icon-arrow-up` | Growth, improvement, upward-trend beats | File upload — use `icon-upload` | no | 60f |
 | `icon-arrow-down` | Cost/latency reduction beats, scroll cues | File download — use `icon-download` | no | 60f |
 | `icon-external-link` | "View on GitHub", external docs, open-in-new-tab beats | In-product navigation — use `icon-arrow-right` | no | 70f |
+| `icon-play` | Starting a demo, video, or 'see it in action' beat | Continuous processing — use `icon-loader` | no | 60f |
