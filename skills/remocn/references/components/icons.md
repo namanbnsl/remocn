@@ -138,6 +138,7 @@ export const Scene = () => (
 | `icon-trophy` | Wins, leaderboards, case-study results | Certifications — use `icon-award` | no | 85f |
 | `icon-award` | Badges, certifications, quality seals | Competitive wins — use `icon-trophy` | no | 75f |
 | `icon-crown` | Premium tiers, top-ranked items | General success — use `icon-check-circle` | no | 75f |
+| `icon-gem` | Premium features, rare items, hidden-gem callouts | Pricing-tier ranking — use `icon-crown` for the top tier | no | 80f |
 | `icon-heart` | Likes, favorites, testimonials, or "built with love" moments | Ratings — use `icon-star` | no | 75f |
 | `icon-star` | Ratings, favorites, GitHub-star callouts | Sparkle/magic semantics — use `icon-sparkles` | no | 70f |
 | `icon-sparkles` | AI features, magic moments, premium highlights | A single award or rating — use `icon-star` | yes | 90f |
