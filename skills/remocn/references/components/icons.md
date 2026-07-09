@@ -88,6 +88,7 @@ export const Scene = () => (
 | `icon-share-2` | Sharing, integrations, connect-your-tools beats | Opening an external page — use `icon-external-link` | no | 80f |
 | `icon-filter` | Filtering lists, search refinement demos | Settings and preferences — use `icon-settings` | no | 70f |
 | `icon-eye` | Previews, visibility toggles, views metrics | Hidden or masked states — use `icon-eye-off` | no | 70f |
+| `icon-eye-off` | Hiding data, privacy modes, secret masking | Security claims — use `icon-shield` or `icon-lock` | no | 70f |
 | `icon-heart` | Likes, favorites, testimonials, or "built with love" moments | Ratings — use `icon-star` | no | 75f |
 | `icon-star` | Ratings, favorites, GitHub-star callouts | Sparkle/magic semantics — use `icon-sparkles` | no | 70f |
 | `icon-sparkles` | AI features, magic moments, premium highlights | A single award or rating — use `icon-star` | yes | 90f |
