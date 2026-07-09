@@ -84,3 +84,4 @@ export const Scene = () => (
 | `icon-star` | Ratings, favorites, GitHub-star callouts | Sparkle/magic semantics — use `icon-sparkles` | no | 70f |
 | `icon-sparkles` | AI features, magic moments, premium highlights | A single award or rating — use `icon-star` | yes | 90f |
 | `icon-zap` | Speed, performance, or instant-result claims | Gradual improvement narratives — pair metrics with `number-wheel` instead | no | 60f |
+| `icon-flame` | Hot features, trending items, streaks | Literal fire/danger warnings — use `icon-alert-triangle` | yes | 90f |
