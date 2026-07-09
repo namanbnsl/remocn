@@ -100,3 +100,4 @@ export const Scene = () => (
 | `icon-mic` | Voice input, recording, dictation features | Audio playback — use `icon-volume-2` | no | 75f |
 | `icon-video` | Video calls, screen recording, camera-on beats | Photo capture — use `icon-camera` | no | 70f |
 | `icon-camera` | Screenshots, photo capture, snapshot beats | Video recording — use `icon-video` | no | 70f |
+| `icon-image` | Galleries, media uploads, image-processing features | Photo capture UI — use `icon-camera` | no | 75f |
