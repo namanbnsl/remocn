@@ -109,6 +109,7 @@ export const Scene = () => (
 | `icon-x-circle` | Errors, failed states, rejected items | Neutral dismissal — use `icon-x` | no | 70f |
 | `icon-calendar` | Scheduling, deadlines, booking demos | Elapsed time — use `icon-clock` | no | 75f |
 | `icon-clock` | Time-saved claims, history, pending states | Countdowns — use `icon-timer` | yes | 90f |
+| `icon-timer` | Countdowns, speed benchmarks, time-boxed offers | Wall-clock time — use `icon-clock` | no | 90f |
 | `icon-heart` | Likes, favorites, testimonials, or "built with love" moments | Ratings — use `icon-star` | no | 75f |
 | `icon-star` | Ratings, favorites, GitHub-star callouts | Sparkle/magic semantics — use `icon-sparkles` | no | 70f |
 | `icon-sparkles` | AI features, magic moments, premium highlights | A single award or rating — use `icon-star` | yes | 90f |
